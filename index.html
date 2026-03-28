@@ -109,21 +109,21 @@
 }
 
 .logo-circle {
-    width: 48px;
-    height: 48px;
+    width: 60px;
+    height: 60px;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; /* CRITICAL: This clips the image to circle shape */
-    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
-    flex-shrink: 0; /* Prevents circle from shrinking */
+    overflow: hidden; 
+    box-shadow: 0 4px 12px var(--primary-dark);
+    flex-shrink: 0;
 }
 
 .logo-image {
-    width: 150%;
-    height: 150%;
+    width: 185%;
+    height: 175%;
     object-fit: cover;
 }
 
