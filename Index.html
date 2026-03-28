@@ -16,8 +16,84 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/png" href="Stacked Logo.png">
 
     <style>
+
+        body {
+    font-family: 'Inter', sans-serif;
+    background: #F8FAFC;
+    color: #0F172A;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: rgba(248, 250, 252, 0.95);
+    border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.logo img {
+    height: 42px;
+    width: auto;
+}
+
+/* ===== COLORS REPLACED ===== */
+:root {
+    --primary: #14B8A6;
+    --dark: #0F172A;
+    --light: #F8FAFC;
+}
+
+/* ===== BUTTONS ===== */
+.btn-primary {
+    background: var(--primary);
+    color: white;
+}
+.btn-primary:hover {
+    background: var(--dark);
+}
+
+.btn-outline {
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+.btn-outline:hover {
+    background: var(--primary);
+    color: white;
+}
+
+/* ===== HERO ===== */
+.hero {
+    background: linear-gradient(135deg, #F8FAFC 0%, #E6FFFA 100%);
+}
+
+.hero h1 span {
+    background: linear-gradient(135deg, #14B8A6, #0F172A);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* ===== ICONS ===== */
+.info-icon {
+    background: #E6FFFA;
+    color: #14B8A6;
+}
+
+/* ===== CARDS ===== */
+.project-card:hover {
+    border-color: #14B8A640;
+}
+
+/* ===== CONTACT ===== */
+.contact-section {
+    background: #0F172A;
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar-thumb {
+    background: #14B8A6;
+}
+        
         * {
             margin: 0;
             padding: 0;
@@ -963,19 +1039,23 @@
     </style>
 </head>
 <body>
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <div class="logo">Vasanthaprakash E</div>
-            <div class="nav-links">
-                <a onclick="scrollToSection('about')">About</a>
-                <a onclick="scrollToSection('experience')">Experience</a>
-                <a onclick="scrollToSection('projects')">Projects</a>
-                <a onclick="scrollToSection('blogs')">Blogs</a>
-                <a onclick="scrollToSection('contact')">Contact</a>
-                <button class="nav-btn" id="resumeBtn">Resume</button>
-            </div>
+    <!-- ===== NAVBAR UPDATED ===== -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <img src="Stacked Logo.png" alt="VP DataLab Logo">
         </div>
-    </nav>
+
+        <div class="nav-links">
+            <a onclick="scrollToSection('about')">About</a>
+            <a onclick="scrollToSection('experience')">Experience</a>
+            <a onclick="scrollToSection('projects')">Projects</a>
+            <a onclick="scrollToSection('blogs')">Blogs</a>
+            <a onclick="scrollToSection('contact')">Contact</a>
+            <button class="nav-btn" id="resumeBtn">Resume</button>
+        </div>
+    </div>
+</nav>
 
     <div class="container">
         <!-- HERO -->
