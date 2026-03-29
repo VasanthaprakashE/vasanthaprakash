@@ -47,3 +47,10 @@
     "crypto-js": "^4.2.0"
   }
 }
+
+{
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development"
+  }
+}
