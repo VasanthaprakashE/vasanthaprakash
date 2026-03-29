@@ -3,8 +3,8 @@
     "target": "ES2020",
     "module": "ES2020",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "outDir": "./dist/",
-    "rootDir": "./src/",
+    "outDir": "./",
+    "rootDir": "../src",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -19,13 +19,10 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "sourceMap": true,
     "declaration": false,
-    "removeComments": true,
-    "noEmitOnError": true
+    "removeComments": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist", "admin", "scripts"]
+  "include": ["../src/**/*"],
+  "exclude": ["../node_modules", "."]
 }

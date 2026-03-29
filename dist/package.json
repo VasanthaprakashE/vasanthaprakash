@@ -1,18 +1,24 @@
 {
-  "name": "data-analyst-portfolio",
+  "name": "vasanthaprakash",
   "version": "1.0.0",
-  "description": "Secure TypeScript Data Analyst Portfolio",
+  "description": "Data Analyst Portfolio - Vasanthaprakash E | SQL, Power BI, Python Expert",
   "main": "dist/bundle.js",
+  "homepage": "https://vasanthaprakashe.github.io/vasanthaprakash",
   "scripts": {
     "dev": "webpack serve --mode development",
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
     "watch": "webpack --watch",
     "clean": "rm -rf dist",
-    "copy-content": "cp -r content dist/ && cp -r admin dist/",
-    "prebuild": "npm run clean && npm run copy-content",
+    "copy-content": "cp -r src/content dist/ && cp -r admin dist/ 2>/dev/null || true",
+    "copy-public": "cp -r public dist/ 2>/dev/null || true",
+    "prebuild": "npm run clean && npm run copy-content && npm run copy-public",
+    "preview": "npx serve dist",
+    "deploy": "npm run build && echo '✅ Build complete! Push to GitHub to deploy'",
     "add-project": "node scripts/add-project.js",
     "add-blog": "node scripts/add-blog.js",
+    "list-projects": "node scripts/add-project.js list",
+    "list-blogs": "node scripts/add-blog.js list",
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write \"src/**/*.ts\"",
     "type-check": "tsc --noEmit",
@@ -21,11 +27,23 @@
   "keywords": [
     "portfolio",
     "data-analyst",
+    "github-pages",
     "typescript",
-    "secure"
+    "sql",
+    "powerbi",
+    "python",
+    "data-visualization"
   ],
   "author": "Vasanthaprakash E",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VasanthaprakashE/vasanthaprakash"
+  },
+  "bugs": {
+    "url": "https://github.com/VasanthaprakashE/vasanthaprakash/issues"
+  },
+  "homepage": "https://github.com/VasanthaprakashE/vasanthaprakash#readme",
   "devDependencies": {
     "@types/node": "^20.10.0",
     "@typescript-eslint/eslint-plugin": "^6.13.0",
