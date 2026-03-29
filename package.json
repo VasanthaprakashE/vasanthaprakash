@@ -1,0 +1,49 @@
+{
+  "name": "data-analyst-portfolio",
+  "version": "1.0.0",
+  "description": "Secure TypeScript Data Analyst Portfolio",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "watch": "webpack --watch",
+    "clean": "rm -rf dist",
+    "copy-content": "cp -r content dist/ && cp -r admin dist/",
+    "prebuild": "npm run clean && npm run copy-content",
+    "add-project": "node scripts/add-project.js",
+    "add-blog": "node scripts/add-blog.js",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "type-check": "tsc --noEmit",
+    "analyze": "webpack --mode production --profile --json > stats.json"
+  },
+  "keywords": [
+    "portfolio",
+    "data-analyst",
+    "typescript",
+    "secure"
+  ],
+  "author": "Vasanthaprakash E",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "css-loader": "^6.8.1",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.54.0",
+    "html-webpack-plugin": "^5.5.3",
+    "prettier": "^3.1.0",
+    "style-loader": "^3.3.3",
+    "terser-webpack-plugin": "^5.3.9",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}

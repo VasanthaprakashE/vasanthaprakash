@@ -1,0 +1,33 @@
+{
+  "skills": [
+    {
+      "name": "SQL & PostgreSQL",
+      "percentage": 90,
+      "category": "Database",
+      "yearsOfExperience": 2,
+      "icon": "fa-database"
+    },
+    {
+      "name": "Excel & Google Sheets",
+      "percentage": 88,
+      "category": "Spreadsheet",
+      "yearsOfExperience": 3,
+      "icon": "fa-table"
+    },
+    {
+      "name": "Power BI",
+      "percentage": 75,
+      "category": "Visualization",
+      "yearsOfExperience": 1.5,
+      "icon": "fa-chart-line"
+    },
+    {
+      "name": "Python",
+      "percentage": 65,
+      "category": "Programming",
+      "yearsOfExperience": 1,
+      "icon": "fa-code"
+    }
+  ],
+  "categories": ["Database", "Visualization", "Programming", "Spreadsheet"]
+}

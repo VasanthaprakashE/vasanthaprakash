@@ -1,0 +1,56 @@
+{
+  "blogs": [
+    {
+      "id": "blog_001",
+      "title": "How SQL Helps Me in Real MIS Reporting",
+      "description": "A practical breakdown of how SQL is useful for filtering, validating, and preparing data for reports and dashboards in day-to-day business work.",
+      "content": "## Full Blog Content Here\n\nThis is where you'd write the complete article...",
+      "icon": "fa-database",
+      "status": "coming-soon",
+      "date": "2024-04-01",
+      "readTime": "5 min read",
+      "tags": ["SQL", "MIS", "Reporting"],
+      "featured": true,
+      "image": "assets/images/blog1.jpg",
+      "slug": "how-sql-helps-in-mis-reporting",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "blog_002",
+      "title": "My Power BI Learning Journey as an MIS Executive",
+      "description": "Sharing how I'm growing from Excel-based reporting into Power BI dashboards and visual storytelling for business reporting.",
+      "content": "## Full Blog Content Here\n\nSharing my journey...",
+      "icon": "fa-chart-pie",
+      "status": "coming-soon",
+      "date": "2024-04-15",
+      "readTime": "7 min read",
+      "tags": ["Power BI", "Dashboard", "Visualization"],
+      "featured": true,
+      "image": "assets/images/blog2.jpg",
+      "slug": "power-bi-learning-journey",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "blog_003",
+      "title": "What I Learned from AI Sensy Chatbot Workflows",
+      "description": "Lessons from supporting WhatsApp communication workflows, template coordination, and operational process support using AI Sensy.",
+      "content": "## Full Blog Content Here\n\nKey lessons learned...",
+      "icon": "fa-robot",
+      "status": "coming-soon",
+      "date": "2024-05-01",
+      "readTime": "6 min read",
+      "tags": ["Chatbot", "Automation", "WhatsApp API"],
+      "featured": true,
+      "image": "assets/images/blog3.jpg",
+      "slug": "ai-sensy-chatbot-lessons",
+      "views": 0,
+      "likes": 0
+    }
+  ],
+  "settings": {
+    "postsPerPage": 5,
+    "showRecentFirst": true
+  }
+}

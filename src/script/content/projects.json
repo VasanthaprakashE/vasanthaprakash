@@ -1,0 +1,65 @@
+{
+  "projects": [
+    {
+      "id": "project_001",
+      "title": "Operational KPI Reporting Dashboard",
+      "description": "Built and supported reporting dashboards to monitor operational KPIs, improve visibility, and simplify internal reporting for business users.",
+      "icon": "fa-chart-line",
+      "technologies": ["SQL", "Power BI", "Excel", "KPI Reporting"],
+      "type": "internal",
+      "link": "#",
+      "date": "2024-01-15",
+      "featured": true,
+      "image": "assets/images/project1.jpg",
+      "github": null,
+      "demo": null
+    },
+    {
+      "id": "project_002",
+      "title": "AI Sensy Chatbot Workflow Support",
+      "description": "Worked on WhatsApp chatbot-related business processes including utility template coordination, message workflow support, and reporting alignment using AI Sensy.",
+      "icon": "fa-robot",
+      "technologies": ["AI Sensy", "WhatsApp API", "Excel", "Process Support"],
+      "type": "internal",
+      "link": "#",
+      "date": "2024-02-20",
+      "featured": true,
+      "image": "assets/images/project2.jpg",
+      "github": null,
+      "demo": null
+    },
+    {
+      "id": "project_003",
+      "title": "SQL-Based Data Validation & Analysis",
+      "description": "Used SQL and PostgreSQL queries to extract, validate, clean, and structure operational datasets for better reporting and business usability.",
+      "icon": "fa-database",
+      "technologies": ["SQL", "PostgreSQL", "Data Validation", "Analysis"],
+      "type": "external",
+      "link": "#",
+      "date": "2024-03-10",
+      "featured": true,
+      "image": "assets/images/project3.jpg",
+      "github": "https://github.com/VasanthaprakashE/sql-projects",
+      "demo": null
+    },
+    {
+      "id": "project_004",
+      "title": "Reporting Automation Workflow",
+      "description": "Improved repetitive reporting processes using Excel logic, Google Sheets, Apps Script, and basic Python support to reduce manual effort.",
+      "icon": "fa-bolt",
+      "technologies": ["Excel", "Google Sheets", "Apps Script", "Python"],
+      "type": "internal",
+      "link": "#",
+      "date": "2024-03-25",
+      "featured": true,
+      "image": "assets/images/project4.jpg",
+      "github": null,
+      "demo": null
+    }
+  ],
+  "categories": ["Data Visualization", "ETL", "Reporting", "Automation"],
+  "settings": {
+    "itemsPerPage": 6,
+    "showFeaturedOnly": false
+  }
+}
